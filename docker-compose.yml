@@ -1,0 +1,7 @@
+services: 
+  next-server: 
+    image: loveganyu/next-server:latest
+    restart: always
+    network_mode: host
+    volumes:
+      - ./config:/etc/NeXT-Server/
