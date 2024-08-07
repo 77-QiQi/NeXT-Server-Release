@@ -19,6 +19,12 @@ cp config/config.yml.example config/config.yml
 ```
 编辑 config/config.yml 文件
 
+### 下载 geoip.dat geosite.dat
+```
+wget -O config/geosite.dat https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat
+wget -O config/geoip.dat https://github.com/v2fly/geoip/releases/latest/download/geoip.dat
+```
+
 ### 启动 / 更新 NeXT-Server
 ```
 docker-compose pull
